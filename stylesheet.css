@@ -1,0 +1,74 @@
+body {
+  font-family: "Lato" sans-serif;
+  /*padding: 50px 300px;*/
+}
+
+header {
+  margin: 30px;
+}
+
+h1 {
+  display: inline;
+}
+
+header h1 a {
+  color: red;
+  display: inline;
+  text-decoration: none;
+  padding: 30px;
+  font-size: 24;
+}
+
+#tagline2 {
+  display: inline;
+  font-size: 22;
+  color: grey;
+}
+
+header nav ul li {
+  float: left;
+  list-style: none;
+  width: 14%;
+  margin: .5px;
+  background-color: black;
+  text-align: center;
+  padding: 15px; 0px; 15px; 0px;
+}
+
+header nav a {
+  color: white;
+  text-decoration: none;
+}
+
+#main {
+  float: left;
+  width: 66.667%;
+  margin: 30px;
+}
+
+.dateline {
+  color: grey;
+}
+
+article p:first-of-type:first-letter {
+  float:left;
+  font-size: 4em;
+  line-height:1;
+  color: #DDD;
+}
+
+#aside {
+  float: right;
+  width: 33.33%;
+  margin-right: 30px;
+}
+
+.link a {
+  float: right;
+  color: red;
+  text-align: right;
+  margin-right: 20px;
+}
+
+article {
+  margin: 50px 20px 0px 0px;
